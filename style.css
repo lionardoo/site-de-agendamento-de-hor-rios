@@ -1,6 +1,7 @@
 body {
-    background-image: linear-gradient(270deg, #e2c3db 0, #d6b5d1 50%, #c9a7c8 100%);
-    background-position: 100%;
+    background: linear-gradient(to right, #dd77b9, #ecb8dc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 img {
     border-radius: 300px;
@@ -37,7 +38,11 @@ img {
     box-shadow: 3px 3px 3px black;
 }
 
-#bio_links a {
+#bio_links:hover, #Horario:hover, #Contato:hover {
+    box-shadow: 3px 3px 3px rgb(236, 0, 197);
+}
+
+#bio_links a, #Horario a, #Contato a {
     text-decoration: none;
     color: black;
     font-family: monospace;
@@ -53,13 +58,7 @@ img {
     box-shadow: 3px 3px 3px black;
 }
 
-#Horario a {
-    text-decoration: none;
-    color: black;
-    font-family: monospace;
-}
-
-#Horario i {
+#Horario i, #Contato i {
     float: left;
 }
 
@@ -71,14 +70,4 @@ img {
     width: 350px;
     padding: 10px;
     box-shadow: 3px 3px 3px black;
-}
-
-#Contato a {
-    text-decoration: none;
-    color: black;
-    font-family: monospace;
-}
-
-#Contato i {
-    float: left;
 }
