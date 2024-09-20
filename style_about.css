@@ -1,0 +1,80 @@
+#banner {
+    background: linear-gradient(to right, #e172ba, #ffa6e0 , #ecb8dc);
+}
+
+.imagem img {
+    height: 305px;
+    width: auto;
+    border-radius: 200px;
+}
+
+#whatsapp, #instagram, #expediente {
+    font-size: 25px;
+}
+
+#modal h2{
+    margin-bottom: 1rem;
+    padding-top: .5rem;
+}
+
+#modal button {
+    padding: .5rem 1.2rem;
+    background-color: #dd77b9;
+    color: white;
+    border: none;
+    border-radius: .30rem;
+    cursor: pointer;
+    opacity: .8;
+    font-size: 1rem;
+    transform: 0.4s;
+}
+
+#modal button:hover{
+    opacity: 1;
+}
+
+#fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 5;
+    display: none;
+}
+
+#modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    max-width: 90%;
+    border-radius: 1rem;
+    display: none;
+    padding: 1.2rem;
+}
+
+#body_modal {
+    line-height: .3rem;
+    font-size: .9rem;
+}
+
+@media (max-width: 396px){
+    #body_modal{
+        font-size: .78rem;
+    }
+
+}
+
+#header_modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}

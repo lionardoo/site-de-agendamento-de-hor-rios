@@ -1,8 +1,7 @@
 body {
-    background: linear-gradient(to right, #dd77b9, #ecb8dc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+    background: linear-gradient(to right, #e172ba, #ffa6e0 , #ecb8dc);
 }
+
 img {
     border-radius: 300px;
     height: 15rem;
@@ -38,17 +37,17 @@ img {
     box-shadow: 3px 3px 3px black;
 }
 
-#bio_links:hover, #Horario:hover, #Contato:hover {
+#bio_links:hover, #marcar_horario:hover, #Contato:hover {
     box-shadow: 3px 3px 3px rgb(236, 0, 197);
 }
 
-#bio_links a, #Horario a, #Contato a {
+#bio_links a, #marcar_horario a, #Contato a {
     text-decoration: none;
     color: black;
     font-family: monospace;
 }
 
-#Horario {
+#marcar_horario {
     position: relative;
     top: 80px;
     border-radius: 100px;
@@ -58,7 +57,7 @@ img {
     box-shadow: 3px 3px 3px black;
 }
 
-#Horario i, #Contato i {
+#bio_links i, #marcar_horario i, #Contato i {
     float: left;
 }
 
