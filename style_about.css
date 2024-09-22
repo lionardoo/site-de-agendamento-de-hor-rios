@@ -2,6 +2,10 @@
     background: linear-gradient(to right, #e172ba, #ffa6e0 , #ecb8dc);
 }
 
+.navbar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .imagem img {
     height: 15rem;
     width: auto;

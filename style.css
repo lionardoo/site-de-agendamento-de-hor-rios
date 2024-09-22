@@ -23,7 +23,7 @@ img {
 #nome_estudio {
     position: relative;
     top: 60px;
-    font-family: monospace;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
 }
 
@@ -34,7 +34,7 @@ img {
     background-color: white;
     width: 300px;
     padding: 10px;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 1.5px 2px 2px black;
 }
 
 #bio_links:hover, #marcar_horario:hover, #Contato:hover {
@@ -44,7 +44,7 @@ img {
 #bio_links a, #marcar_horario a, #Contato a {
     text-decoration: none;
     color: black;
-    font-family: monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #marcar_horario {
@@ -54,7 +54,7 @@ img {
     background-color: white;
     width: 300px;
     padding: 10px;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 1.5px 2px 2px black;
 }
 
 #bio_links i, #marcar_horario i, #Contato i {
@@ -68,5 +68,5 @@ img {
     background-color: white;
     width: 300px;
     padding: 10px;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 1.5px 2px 2px black;
 }
